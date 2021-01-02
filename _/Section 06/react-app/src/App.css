@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  background: #cdc;
+  padding: 1em;
+  margin: 1em;
+}

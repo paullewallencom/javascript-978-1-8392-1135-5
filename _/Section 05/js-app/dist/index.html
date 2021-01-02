@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    body {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      list-style: none;
+      background: #cdc;
+      padding: 1em;
+      margin: 1em;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <title>Github Finder</title>
+</head>
+
+<body>
+  <form>
+    <h2>Find Github Users</h2>
+    <label for="search">Type Username</label>
+    <input type="text" name="search">
+    <div>
+      <button type="submit" class="button-primary">Submit</button>
+      <button type="button">Clear</button>
+    </div>
+  </form>
+  <div id="root"></div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
